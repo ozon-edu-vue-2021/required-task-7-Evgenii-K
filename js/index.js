@@ -12,7 +12,6 @@ window.addEventListener('DOMContentLoaded', async () => {
   const backButton = document.querySelector('.back');
 
   usersList.forEach(user => {
-
     const id = user.id
 
     user.addEventListener('click', () => {
